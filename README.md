@@ -34,6 +34,15 @@ npm run dev -- --host 0.0.0.0
 ## Firebase
 
 The repository is configured with `.firebaserc` and `firebase.json` for the
-`anyware-door` Firebase project. The landing page reads the Firebase web app
-configuration so authenticated matching flows can be added on top of this
-foundation.
+`anyware-door` Firebase project. Firebase Hosting deploys the Vite `dist`
+directory and rewrites routes to `index.html`. Firestore uses `firestore.rules`
+and `firestore.indexes.json`.
+
+Deploy Hosting and Firestore rules/indexes:
+
+```bash
+npm run deploy
+```
+
+If this is your first Firebase CLI deploy on the machine, run `npx firebase login`
+once before deploying.
