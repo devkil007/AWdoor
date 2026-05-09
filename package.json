@@ -1,7 +1,7 @@
 {
-  "name": "door",
+  "name": "umingle",
   "version": "1.0.0",
-  "description": "Initial web app for Door, a Firebase-backed video-matching experience.",
+  "description": "Initial web app for Umingle, a Firebase-backed video-matching experience.",
   "private": true,
   "type": "module",
   "scripts": {
@@ -15,7 +15,7 @@
     "url": "git+https://github.com/devkil007/AWdoor.git"
   },
   "keywords": [
-    "door",
+    "umingle",
     "video-matching",
     "firebase",
     "react"

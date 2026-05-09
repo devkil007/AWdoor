@@ -6,7 +6,7 @@ import "./styles/global.css";
 const rootElement = document.getElementById("root");
 
 if (!rootElement) {
-  throw new Error("Door could not find the root element.");
+  throw new Error("Umingle could not find the root element.");
 }
 
 createRoot(rootElement).render(

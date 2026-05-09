@@ -1,5 +1,5 @@
-import { LoginPage } from "../features/auth/LoginPage";
+import { LandingPage } from "../features/landing/LandingPage";
 
 export function App() {
-  return <LoginPage />;
+  return <LandingPage />;
 }
