@@ -1,0 +1,43 @@
+{
+  "name": "umingle",
+  "version": "1.0.0",
+  "description": "Initial web app for Umingle, a Firebase-backed video-matching experience.",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "deploy": "firebase deploy --project anyware-door --only hosting,firestore",
+    "preview": "vite preview",
+    "typecheck": "tsc -b"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devkil007/AWdoor.git"
+  },
+  "keywords": [
+    "umingle",
+    "video-matching",
+    "firebase",
+    "react"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/devkil007/AWdoor/issues"
+  },
+  "homepage": "https://github.com/devkil007/AWdoor#readme",
+  "dependencies": {
+    "firebase": "^12.13.0",
+    "react": "^19.2.6",
+    "react-dom": "^19.2.6"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^6.0.1",
+    "firebase-tools": "^15.17.0",
+    "typescript": "^6.0.3",
+    "vite": "^8.0.11"
+  }
+}
